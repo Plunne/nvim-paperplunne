@@ -14,7 +14,10 @@ I forked this theme because I wanted a simple way to edit a custom theme in lua.
 Many theme are really complex for me and not comprehesive as I want.
 This lua file is really simple, I implemented a function that uses the built-in highlight function of vim.
 
-You just have to write : `lua hi("<key>", "<foreground_color>", "<background_color>", style_variable)`
+You just have to write :
+```lua
+hi("<key>", "<foreground_color>", "<background_color>", style_variable)
+```
 
 # Languages
 
