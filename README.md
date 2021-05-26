@@ -3,7 +3,28 @@ A custom colorscheme for Neovim written in Lua and inspired by PaperColor.
 
 Original PaperColor theme : https://github.com/NLKNguyen/papercolor-theme
 
+For syntax highlighting I use vim-polyglot : https://github.com/sheerun/vim-polyglot
+
+*Don't forget to setup your Language Servers before using it.*
+
+# Why forking it?
+
+I forked this theme because I wanted a simple way to edit a custom theme in lua.
+
+Many theme are really complex for me and not comprehesive as I want.
+This lua file is really simple, I implemented a function that uses the built-in highlight function of vim.
+
+You just have to write : `lua hi("<key>", "<foreground_color>", "<background_color>", style_variable)`
+
 # Languages
+
+There are some languages I worked on, you can also send me a code of another to make highlights for it.
+
+* [C] ("https://github.com/Plunne/nvim-paperplunne#c")
+* [CSS] ("https://github.com/Plunne/nvim-paperplunne#css")
+* [HTML] ("https://github.com/Plunne/nvim-paperplunne#html")
+* [INI] ("https://github.com/Plunne/nvim-paperplunne#ini")
+* [JSON] ("https://github.com/Plunne/nvim-paperplunne#json")
 
 ### C
 
@@ -53,3 +74,25 @@ Original PaperColor theme : https://github.com/NLKNguyen/papercolor-theme
 
 <img src="https://gitlab.com/Plunne/miscs/-/raw/master/img_dots/nvim_paperplunne/nvim-paperplunne-yaml.png"/>
 
+# INSTALLATION
+
+1. Clone this repo.
+    ```shell
+    git clone https://gitlab.com/Plunne/nvim-paperplunne
+    ```
+
+2. Copy theme-paperplunne.lua into your NeoVim lua directory.
+    ```shell
+    mkdir ~/.config/nvim/lua # only if you don't have the lua directory
+    cp nvim-paperplunne/theme-paperplunne.lua ~/.config/nvim/lua/theme-paperplunne.lua
+    ```
+
+3. Source it into your init.lua or init.vim with :
+    ```lua
+    require("theme-paperplunne")
+    ```
+
+# ENJOY !
+
+I'm open for any improvements, don't hesitate to send a request.
+Also you can DM me on discord : Léna#9999
