@@ -20,11 +20,7 @@ You just have to write : `lua hi("<key>", "<foreground_color>", "<background_col
 
 There are some languages I worked on, you can also send me a code of another to make highlights for it.
 
-* [C]("https://github.com/Plunne/nvim-paperplunne#c")
-* [CSS]("https://github.com/Plunne/nvim-paperplunne#css")
-* [HTML]("https://github.com/Plunne/nvim-paperplunne#html")
-* [INI]("https://github.com/Plunne/nvim-paperplunne#ini")
-* [JSON]("https://github.com/Plunne/nvim-paperplunne#json")
+*The pictures are example codes and some of them are very old, the important thing is that it shows how the colors render.*
 
 ### C
 
